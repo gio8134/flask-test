@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "python-chart.fullname" . }}
+  labels:
+    {{- include "python-chart.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }} # <GIO> be sure is like this
+      targetPort: {{ .Values.service.targetPort }} # <GIO> be sure is like this
+      protocol: {{ .Values.service.protocol }} # <GIO> be sure is like this
+      name: {{ .Values.service.name }} # <GIO> be sure is like this
+  selector:
+    {{- include "python-chart.selectorLabels" . | nindent 4 }}

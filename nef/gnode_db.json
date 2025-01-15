@@ -1,0 +1,10 @@
+{
+    "db": [
+        {"gnodeb_code":"MIB0001","tracking_area":"1200","antenna_lat":0.0,"antenna_lon":0.0},
+        {"gnodeb_code":"TOB0001","tracking_area":"1300","antenna_lat":0.0,"antenna_lon":0.0},
+        {"gnodeb_code":"PIB0001","tracking_area":"3200","antenna_lat":0.0,"antenna_lon":0.0},
+        {"gnodeb_code":"BOB0001","tracking_area":"2200","antenna_lat":0.0,"antenna_lon":0.0},
+        {"gnodeb_code":"RMB0001","tracking_area":"3100","antenna_lat":0.0,"antenna_lon":0.0},
+        {"gnodeb_code":"NAB0001","tracking_area":"4300","antenna_lat":0.0,"antenna_lon":0.0}
+    ]
+}
